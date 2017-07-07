@@ -1,0 +1,30 @@
+{
+  "name": "multi-ifttt-triggers",
+  "version": "0.0.1",
+  "description": "Trigger multiple IFTTT services after receiving a request",
+  "author": "mengles",
+  "license": "MIT",
+  "repository": "https://glitch.com/edit/#!/habitica-ifttt-action",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "request": "*",
+    "body-parser": "*",
+    "node-ifttt-maker": "^1.0.0",
+    "replace-string": "^1.0.0",
+    "reading-time": "^1.1.0",
+    "summarizer": "^1.0.0",
+    "lodash-node": "^3.10.2"
+  },
+  "engines": {
+    "node": "6.9.1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "ifttt"
+  ]
+}
